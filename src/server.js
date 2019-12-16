@@ -5,7 +5,6 @@ import * as sapper from "@sapper/server";
 
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === "development";
-console.log( "[PORT]", PORT );
 
 polka() // You can also use Express
 	.use(

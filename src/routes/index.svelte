@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount } from "svelte";
 
 	onMount( () => {
 		if ( window.netlifyIdentity ) {
@@ -60,4 +60,4 @@
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>Initial site to try out <a href="https://netlify.com">Netlify</a> and <a href="https://sapper.svelte.dev/">Sapper</a>!</strong></p>
